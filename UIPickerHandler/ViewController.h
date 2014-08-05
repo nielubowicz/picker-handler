@@ -10,4 +10,8 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic,strong)IBOutlet UITextField *adjectives;
+@property (nonatomic,strong)IBOutlet UITextField *nouns;
+@property (nonatomic,strong)IBOutlet UITextField *verbs;
+
 @end

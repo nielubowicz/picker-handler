@@ -22,6 +22,8 @@
 		8EA472A41991879600E259B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EA472831991879600E259B2 /* UIKit.framework */; };
 		8EA472AC1991879600E259B2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8EA472AA1991879600E259B2 /* InfoPlist.strings */; };
 		8EA472AE1991879600E259B2 /* UIPickerHandlerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA472AD1991879600E259B2 /* UIPickerHandlerTests.m */; };
+		8EA472B9199187B900E259B2 /* PickerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA472B8199187B900E259B2 /* PickerHandler.m */; };
+		8EA472BC199187D900E259B2 /* NSString+FormatArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA472BB199187D900E259B2 /* NSString+FormatArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,10 @@
 		8EA472A91991879600E259B2 /* UIPickerHandlerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIPickerHandlerTests-Info.plist"; sourceTree = "<group>"; };
 		8EA472AB1991879600E259B2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8EA472AD1991879600E259B2 /* UIPickerHandlerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIPickerHandlerTests.m; sourceTree = "<group>"; };
+		8EA472B7199187B900E259B2 /* PickerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerHandler.h; sourceTree = "<group>"; };
+		8EA472B8199187B900E259B2 /* PickerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerHandler.m; sourceTree = "<group>"; };
+		8EA472BA199187D900E259B2 /* NSString+FormatArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FormatArray.h"; sourceTree = "<group>"; };
+		8EA472BB199187D900E259B2 /* NSString+FormatArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FormatArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +120,10 @@
 		8EA472851991879600E259B2 /* UIPickerHandler */ = {
 			isa = PBXGroup;
 			children = (
+				8EA472BA199187D900E259B2 /* NSString+FormatArray.h */,
+				8EA472BB199187D900E259B2 /* NSString+FormatArray.m */,
+				8EA472B7199187B900E259B2 /* PickerHandler.h */,
+				8EA472B8199187B900E259B2 /* PickerHandler.m */,
 				8EA4728E1991879600E259B2 /* AppDelegate.h */,
 				8EA4728F1991879600E259B2 /* AppDelegate.m */,
 				8EA472911991879600E259B2 /* Main_iPhone.storyboard */,
@@ -255,6 +265,8 @@
 			files = (
 				8EA472991991879600E259B2 /* ViewController.m in Sources */,
 				8EA472901991879600E259B2 /* AppDelegate.m in Sources */,
+				8EA472B9199187B900E259B2 /* PickerHandler.m in Sources */,
+				8EA472BC199187D900E259B2 /* NSString+FormatArray.m in Sources */,
 				8EA4728C1991879600E259B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
