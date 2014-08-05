@@ -3,7 +3,7 @@
 A custom UI class for working with UIPickerViews and TextField input. This project was born from a form-app I was writing, where I had to write several UIPickerViews to cover user input like gender, hair color, etc.
 
 ## Initialize
-Pretty simple: provide a UITextField and an array of values 
+To include `PickerHandler` in your project, just copy over the PickerHandler class files and the NSString category. Once you have include the source files, all you have to do to initalize a `PickerHandler` is provide a `UITextField` and an array of values 
 ```
 PickerHandler *pickerHandler = [[PickerHandler alloc] initWithTextField:textField
 							objects:@[@"first",@"second",@"third"]];
